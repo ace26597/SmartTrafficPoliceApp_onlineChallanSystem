@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Complaint and Emergency Service"
+        android:id="@+id/toolbarTab"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="250dp">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:lines="10"
+        android:minLines="8"
+        android:maxLines="12"
+        android:scrollbars="vertical"
+        android:id="@+id/compl"
+        android:layout_gravity="top"
+        android:inputType="textMultiLine"
+        android:hint="Enter Complaint Discription Here....."/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:id="@+id/bcompl"
+        android:textSize="18dp"
+        android:background="@drawable/buttonshape"
+        android:text="Submit Complaint"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:id="@+id/btnEmr"
+        android:textSize="18dp"
+        android:background="@drawable/buttonshape"
+        android:text="Emergency Contatct"/>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etfeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Send your notification"
+        />
+    <Button
+        android:id="@+id/etsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send To all"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="@drawable/newb"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvTitle"
+        android:background="@color/primary"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<!--
+  ~ Copyright (C) 2016 Krishna Patait
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~    http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">Traffic App</string>
+    <string name="intro_text">Point the camera view to a QR Code to read the information</string>
+    <string name="restart_activity">Restart Activity</string>
+    <string name="stop_start_qreader">Stop QREader</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="spinner_title">Select Document Type</string>
+    <string name="spinner_vtype">Select Vehicle Type</string>
+    <string name="spinner_vcolor">Select Vehicle Color</string>
+    <string name="backdrop_title">LOVE MUSICS</string>
+    <string name="yes1">CASH COLLECTED</string>
+
+    <string name="backdrop_subtitle">This season top 20 music</string>
+    <string name="preface_english">"Download Traffic Pune App and make commuting safe and simple in the following ways:
+
+ Find out which roads are blocked for road repairs, processions or other public events. Find out what alternative routes are planned.
+
+ Not sure what the traffic rules are, or how much fine you should pay for a particular offence? Traffic Pune App provides the right answer.
+
+ Pune Traffic Police is committed to the use of latest technology in the service of its citizens.
+
+ For any proposed changes in the traffic plan in your locality, send in your opinions and suggestions online.
+
+ Propose fresh changes and ideas and contribute to traffic safety in your locality.
+
+ View contact numbers for senior traffic officials in case of emergency.
+
+ Report accidents, traffic problems and emergencies in your locality and receive quick police assistance.
+
+ During rains and in other special conditions, find out where the traffic bottlenecks are.
+
+ Traffic Pune App provides a bridge between traffic police and citizens for instant, proactive and interactive communication.
+
+ Jai Hind !
+
+ Pune Traffic Police"</string>
+    <string name="title_activity_upload_img">Upload User Document</string>
+    <string name="title_activity_activity__user__registration">User Registration</string>
+    <string name="title_activity_police_dash_borad">PoliceDashBorad</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="single_permission_text">(Click on FAB to check Single permission.\nTo test again, change the app permission in settings or reinstall the app)</string>
+</resources>
