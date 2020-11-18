@@ -12,4 +12,4 @@ change Database connection accordingly
 and you are good to go !
 ENJOY
 
-<p></img src="use_case.jpg" />
+<p><img src="use_case.jpg" />
