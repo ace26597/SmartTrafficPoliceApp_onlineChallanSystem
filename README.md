@@ -10,7 +10,6 @@ Create database with table names u can get from PHP files
 upload PHP files on web hosting
 change Database connection accordingly
 and you are good to go !
-ENJOY
 
 <p><img src="use_case.jpg" />
 
